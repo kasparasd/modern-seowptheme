@@ -80,6 +80,7 @@ main {
 .hero-section {
     display: flex;
     margin-top: 50px;
+    gap: 20px;
 }
 
 .hero-text {
@@ -113,13 +114,13 @@ main {
     color: rgba(0, 0, 0, 0.696);
     font-size: 1.2rem;
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
     line-height: 26px;
 }
 
 .hero-text > a {
     text-decoration: none;
-    padding: 12px 15px;
+    padding: 15px 23px;
     background-color: #f37648;
     border-radius: 12px;
     color: white;
@@ -132,8 +133,56 @@ main {
 
 
 .marketing-badges {
-    margin-top: 50px;
+    margin-top: 65px;
     width: 50%;
     text-align: left;
 }
 
+.specializations-section{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.specializations-card {
+    flex: 1;
+    box-shadow: 0px 2px 8px 2px rgba(30,10,10,0.16);
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+
+
+.specializations-card:hover {
+    box-shadow: 0px 4px 16px 4px rgba(30, 10, 10, 0.172);
+}
+
+.specializations-card > img {
+    width: 65%;
+}
+
+.specializations-card > h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.specializations-card > p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgba(0, 0, 0, 0.696);
+}
+
+.specializations-card > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #f98f2d;
+}
+
+.specializations-card > a:hover {
+    padding: 10px 18px;
+    border-radius: 10px;
+    background-color: #f98f2d;
+    color: white;
+    box-shadow: 0px 2px 8px 2px rgba(30,10,10,0.16);
+}
