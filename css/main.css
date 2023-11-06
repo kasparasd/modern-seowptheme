@@ -1,0 +1,139 @@
+body,
+body * {
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1920px;
+}
+
+.top-container {
+    background-color: rgba(252, 252, 252, 0.881);
+    padding: 5px 0px 7px 0;
+    border: 1px solid rgba(0, 0, 0, 0.163);
+
+}
+
+.top {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 0.9rem;
+    width: 1200px;
+    display: flex;
+    gap: 1rem;
+}
+.top > p:first-child {
+    flex: 4;
+}
+
+.header-container {
+    box-shadow: 0px 5px 10px #8888882d;
+}
+
+header {    
+    width: 1200px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 25px 1%;
+    align-items: center;
+}
+
+header > a {
+    text-decoration: none;
+    margin: 0;
+    color: #514d60;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+header > a:hover, header > a:active, header > a:focus {
+    color: #fa65b1;
+}
+
+header > a:last-child {
+    background-color: #894ae2;
+    padding: 10px 15px;
+    border-radius: 14px;
+    color: white;
+    margin-left: 40px;
+}
+header > a:last-child:hover {
+    background-color: #fa65b1;
+    box-shadow: 0px 2px 8px 2px rgba(30,10,10,0.16);
+    color: white;
+}
+
+main {
+    width: 1200px;
+    padding: 1%;
+}
+
+.hero-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.hero-text {
+    flex:3;
+}
+
+.hero-image {
+    flex:4;
+}
+
+.hero-image > img {
+    width: 100%;
+}
+
+.hero-text > h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.hero-text > h1 {
+    font-size: 3.6rem;
+    color: rgba(0, 0, 0, 0.696);
+    margin-top: 25px;
+    line-height: 65px;
+}
+
+.hero-text > p {
+    color: rgba(0, 0, 0, 0.696);
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+
+.hero-text > a {
+    text-decoration: none;
+    padding: 12px 15px;
+    background-color: #f37648;
+    border-radius: 12px;
+    color: white;
+}
+
+.hero-text > a:hover {
+    box-shadow: 0px 2px 8px 2px rgba(30,10,10,0.16);
+    background-color: #fb55a5;
+}
+
+
+.marketing-badges {
+    margin-top: 50px;
+    width: 50%;
+    text-align: left;
+}
+
